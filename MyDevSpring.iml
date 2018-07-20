@@ -7,18 +7,15 @@
         <option name="defaultSourceRootUrl" value="file://$MODULE_DIR$/src" />
         <option name="moduleContents">
           <ModuleContents>
-            <option name="contentSelectionType" value="SELECTED" />
             <option name="manifest">
               <Manifest>
                 <option name="types">
                   <set>
                     <MetadataType>
                       <option name="name" value="ActionLinkGroupTemplate" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="AnalyticSnapshot" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
@@ -168,6 +165,10 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="mydp" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="OpportunityCloneController" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -211,10 +212,6 @@
                             <option name="name" value="SlackOpportunityPublisherTest" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="mydp" />
-                            <option name="selected" value="true" />
-                          </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="ApexClass" />
@@ -243,7 +240,6 @@
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="ApexTestSuite" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
@@ -265,46 +261,48 @@
                         <list>
                           <MetadataEntry>
                             <option name="name" value="AppSwitcher" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Salesforce1" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="AppMenu" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="ApprovalProcess" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
                         <list>
                           <MetadataEntry>
                             <option name="name" value="Case.Standard" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead.Standard" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="AssignmentRule" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
                         <list>
                           <MetadataEntry>
                             <option name="name" value="Case" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="AssignmentRules" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
@@ -346,11 +344,11 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="MortgageCalcWithAmortization" />
+                            <option name="name" value="MortgageCalculator" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="MortgageCalculator" />
+                            <option name="name" value="MortgageCalcWithAmortization" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -459,9 +457,11 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="TestApp" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="TestCmp" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="VisualSearchBox" />
@@ -474,114 +474,108 @@
                         </list>
                       </option>
                       <option name="name" value="AuraDefinitionBundle" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="AuthProvider" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="AutoResponseRule" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
                         <list>
                           <MetadataEntry>
                             <option name="name" value="Case" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="AutoResponseRules" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="BrandingSet" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="BusinessProcess" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="CallCenter" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="CaseSubjectParticle" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
                         <list>
                           <MetadataEntry>
                             <option name="name" value="CPQIntegrationUserCert" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SelfSignedCert_01Feb2018_092841" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="Certificate" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="ChannelLayout" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="ChatterExtension" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
                         <list>
                           <MetadataEntry>
                             <option name="name" value="DataCloudGeoLocation" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="CleanDataService" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
                         <list>
                           <MetadataEntry>
                             <option name="name" value="Internal Zone" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="Community" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
                         <list>
                           <MetadataEntry>
                             <option name="name" value="Broker__c.Broker_Compact" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Property__c.Property_Compact_Layout" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="CompactLayout" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
                         <list>
                           <MetadataEntry>
                             <option name="name" value="CPQIntegrationUserApp" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="ConnectedApp" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
@@ -703,11 +697,11 @@
                             <option name="name" value="Account.NumberofLocations__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Account.Potential_Contacts__c" />
+                            <option name="name" value="Account.Potential__c" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Account.Potential__c" />
+                            <option name="name" value="Account.Potential_Contacts__c" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -715,13 +709,13 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Account.SLA__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Account.SLAExpirationDate__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Account.SLASerialNumber__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Account.SLA__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Account.UpsellOpportunity__c" />
@@ -748,10 +742,10 @@
                             <option name="name" value="Broker__c.Phone__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Broker__c.Picture_IMG__c" />
+                            <option name="name" value="Broker__c.Picture__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Broker__c.Picture__c" />
+                            <option name="name" value="Broker__c.Picture_IMG__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Broker__c.Title__c" />
@@ -829,12 +823,6 @@
                             <option name="name" value="Opportunity.TrackingNumber__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Property_Favorite__c.Property__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Property_Favorite__c.User__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="Property__c.Address__c" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -877,16 +865,16 @@
                             <option name="name" value="Property__c.Location__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Property__c.Picture_IMG__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="Property__c.Picture__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Property__c.Price_Sold__c" />
+                            <option name="name" value="Property__c.Picture_IMG__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Property__c.Price__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Property__c.Price_Sold__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Property__c.Record_Link__c" />
@@ -901,16 +889,22 @@
                             <option name="name" value="Property__c.Tags__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Property__c.Thumbnail_IMG__c" />
+                            <option name="name" value="Property__c.Thumbnail__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Property__c.Thumbnail__c" />
+                            <option name="name" value="Property__c.Thumbnail_IMG__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Property__c.Title__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Property__c.Zip__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Property_Favorite__c.Property__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Property_Favorite__c.User__c" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -1100,10 +1094,10 @@
                             <option name="name" value="ProfileSkillUser" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Property_Favorite__c" />
+                            <option name="name" value="Property__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Property__c" />
+                            <option name="name" value="Property_Favorite__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="PushTopic" />
@@ -1136,10 +1130,10 @@
                             <option name="name" value="SBQQ__Cost__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="SBQQ__CustomActionCondition__c" />
+                            <option name="name" value="SBQQ__CustomAction__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="SBQQ__CustomAction__c" />
+                            <option name="name" value="SBQQ__CustomActionCondition__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SBQQ__CustomScript__c" />
@@ -1160,13 +1154,13 @@
                             <option name="name" value="SBQQ__ErrorCondition__c" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="SBQQ__Favorite__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="SBQQ__FavoriteProduct__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SBQQ__FavoriteShare__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="SBQQ__Favorite__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SBQQ__FieldMetadata__c" />
@@ -1211,22 +1205,22 @@
                             <option name="name" value="SBQQ__PriceTier__c" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="SBQQ__ProcessInput__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="SBQQ__ProcessInputCondition__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SBQQ__ProcessInputValue__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="SBQQ__ProcessInput__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="SBQQ__ProductAction__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="SBQQ__ProductAttributeSet__c" />
+                            <option name="name" value="SBQQ__ProductAttribute__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="SBQQ__ProductAttribute__c" />
+                            <option name="name" value="SBQQ__ProductAttributeSet__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SBQQ__ProductFeature__c" />
@@ -1238,13 +1232,16 @@
                             <option name="name" value="SBQQ__ProductRule__c" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="SBQQ__Quote__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="SBQQ__QuoteDocument__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="SBQQ__QuoteLineGroup__c" />
+                            <option name="name" value="SBQQ__QuoteLine__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="SBQQ__QuoteLine__c" />
+                            <option name="name" value="SBQQ__QuoteLineGroup__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SBQQ__QuoteProcess__c" />
@@ -1254,9 +1251,6 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SBQQ__QuoteTerm__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="SBQQ__Quote__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SBQQ__RecordJob__c" />
@@ -1304,10 +1298,10 @@
                             <option name="name" value="SBQQ__UpgradeSource__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="SBQQ__WebQuoteLine__c" />
+                            <option name="name" value="SBQQ__WebQuote__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="SBQQ__WebQuote__c" />
+                            <option name="name" value="SBQQ__WebQuoteLine__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Scorecard" />
@@ -1326,6 +1320,21 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Solution" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="sortablegrid__SDG__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="sortablegrid__SDG_Action__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="sortablegrid__SDG_Field__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="sortablegrid__sdg_Preferences__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="sortablegrid__SDGDefaults__mdt" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="StreamingChannel" />
@@ -1383,21 +1392,6 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="WorkThanks" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="sortablegrid__SDGDefaults__mdt" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="sortablegrid__SDG_Action__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="sortablegrid__SDG_Field__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="sortablegrid__SDG__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="sortablegrid__sdg_Preferences__c" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -1537,10 +1531,25 @@
                             <option name="name" value="Product2-pt_BR" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Property__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Property_Favorite__c-en_US" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Property__c-en_US" />
+                            <option name="name" value="sortablegrid__SDG__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="sortablegrid__SDG_Action__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="sortablegrid__SDG_Field__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="sortablegrid__sdg_Preferences__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="sortablegrid__SDGDefaults__mdt-en_US" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="User-de" />
@@ -1556,21 +1565,6 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="User-pt_BR" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="sortablegrid__SDGDefaults__mdt-en_US" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="sortablegrid__SDG_Action__c-en_US" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="sortablegrid__SDG_Field__c-en_US" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="sortablegrid__SDG__c-en_US" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="sortablegrid__sdg_Preferences__c-en_US" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -1614,22 +1608,22 @@
                             <option name="name" value="Heat_Map_Mock" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Property__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Property_Explorer" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Property_Finder" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Property__c" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="Sample_Data_Import" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="TestApp" />
+                            <option name="name" value="test_grid" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="test_grid" />
+                            <option name="name" value="TestApp" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -1682,18 +1676,6 @@
                             <option name="parentFolder" value="unfiled$public" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE" />
-                            <option name="parentFolder" value="unfiled$public" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE" />
-                            <option name="parentFolder" value="unfiled$public" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE" />
-                            <option name="parentFolder" value="unfiled$public" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="unfiled$public/SalesNewCustomerEmail" />
                             <option name="parentFolder" value="unfiled$public" />
                           </MetadataEntry>
@@ -1722,11 +1704,23 @@
                             <option name="parentFolder" value="unfiled$public" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE" />
+                            <option name="parentFolder" value="unfiled$public" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="unfiled$public/SupportSelfServiceNewLoginandPassword" />
                             <option name="parentFolder" value="unfiled$public" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE" />
+                            <option name="parentFolder" value="unfiled$public" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="unfiled$public/SupportSelfServiceResetPassword" />
+                            <option name="parentFolder" value="unfiled$public" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE" />
                             <option name="parentFolder" value="unfiled$public" />
                           </MetadataEntry>
                         </list>
@@ -1810,6 +1804,9 @@
                             <option name="name" value="Datagrid_Test" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="dreamhouseApplicationUtilityBar" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Einstein_Vision" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1828,13 +1825,10 @@
                             <option name="name" value="Property_Record_Page" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="TestApp" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="dreamhouseApplicationUtilityBar" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="test_grid" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestApp" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -1887,10 +1881,10 @@
                             <option name="name" value="BMC3" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="SBQQ" />
+                            <option name="name" value="ldt" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="ldt" />
+                            <option name="name" value="SBQQ" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="sortablegrid" />
@@ -2060,10 +2054,10 @@
                             <option name="name" value="ProfileSkillUser-Skill User Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Property_Favorite__c-Favorite Layout" />
+                            <option name="name" value="Property__c-Property Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Property__c-Property Layout" />
+                            <option name="name" value="Property_Favorite__c-Favorite Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="QuickText-Quick Text Layout" />
@@ -2158,215 +2152,283 @@
                         <list>
                           <MetadataEntry>
                             <option name="name" value="Account.AllAccounts" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Account.MyAccounts" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Account.NewLastWeek" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Account.NewThisWeek" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Account.PlatinumandGoldSLACustomers" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Activity.AllActivities" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Activity.MyActivities" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Activity.TodaysTasks" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Activity.UpcomingEvents" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Asset.AllAssets" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Bot_Command__c.All" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Broker__c.All" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Campaign.AllActiveCampaigns" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Campaign.MyActiveCampaigns" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Case.AllClosedCases" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Case.AllOpenCases" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Case.MyCases" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Case.MyOpenCases" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CollaborationGroup.All_ChatterGroups" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Contact.AllContacts" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Contact.BirthdaysThisMonth" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Contact.MyContacts" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Contact.NewLastWeek" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Contact.NewThisWeek" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Contract.AllActivatedContracts" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Contract.AllContracts" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Contract.AllDraftContracts" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Contract.AllInApprovalContracts" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Contract.MyActivatedContracts" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Contract.MyDraftContracts" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Contract.MyInApprovalContracts" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Idea.Ideas_Last_7_Days" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead.AllOpenLeads" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead.MyUnreadLeads" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead.TodaysLeads" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead.ViewCustom1" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead.ViewCustom2" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity.AllOpportunities" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity.ClosingNextMonth" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity.ClosingThisMonth" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity.Default_Opportunity_Pipeline" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity.MyOpportunities" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity.NewLastWeek" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity.NewThisWeek" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity.Private" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity.Won" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Order.AllActivatedOrders" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Order.AllDraftOrders" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Order.AllOrders" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Product2.AllProducts" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="Property_Favorite__c.All" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Property__c.All" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Property_Favorite__c.All" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Scorecard.AllScorecards" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Scorecard.MyScorecards" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SocialPersona.AllSocialPersonas" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Solution.AllReviewedSolutions" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Solution.AllUnreviewedSolutions" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Task.CompletedTasks" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Task.DelegatedTasks" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Task.OpenTasks" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Task.OverdueTasks" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Task.RecurringTasks" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Task.TodaysTasks" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Task.UnscheduledTasks" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="User.ActiveUsers" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="User.AdminUsers" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="User.AllUsers" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="WorkFeedbackRequest.AboutTopics" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="WorkFeedbackRequest.All" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="ListView" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="entries">
@@ -2445,119 +2507,155 @@
                         <list>
                           <MetadataEntry>
                             <option name="name" value="Admin" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Analytics Cloud Integration User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Analytics Cloud Security User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Authenticated Website" />
-                          </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="CPQ Integration User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Chatter External User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Chatter Free User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Chatter Moderator User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="ContractManager" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CPQ Integration User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Cross Org Data Proxy User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Custom%3A Marketing Profile" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Custom%3A Sales Profile" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Custom%3A Support Profile" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Customer Community Login User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Customer Community Plus Login User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Customer Community Plus User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Customer Community User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Customer Portal Manager Custom" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Customer Portal Manager Standard" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="External Identity User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Force%2Ecom - App Subscription User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Force%2Ecom - Free User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Gold Partner User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="High Volume Customer Portal User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="HighVolumePortal" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Identity User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="MarketingProfile" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Partner App Subscription User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Partner Community Login User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Partner Community User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="PlatformPortal" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="ReadOnly" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Silver Partner User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="SolutionManager" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Standard" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="StandardAul" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Work%2Ecom Only User" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="Profile" />
-                      <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
                       <option name="name" value="ProfilePasswordPolicy" />
@@ -2722,10 +2820,10 @@
                             <option name="name" value="CFO" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="COO" />
+                            <option name="name" value="ChannelSalesTeam" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="ChannelSalesTeam" />
+                            <option name="name" value="COO" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CustomerSupportInternational" />
@@ -2923,10 +3021,10 @@
                             <option name="name" value="Order" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Property_Favorite__c" />
+                            <option name="name" value="Property__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Property__c" />
+                            <option name="name" value="Property_Favorite__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="User" />
@@ -3199,16 +3297,16 @@
                             <option name="name" value="Order" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Property_Favorite__c" />
+                            <option name="name" value="Property__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Property__c" />
+                            <option name="name" value="Property_Favorite__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Solution" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="Task" />
+                            <option name="name" value="sortablegrid__SDG__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="sortablegrid__SDG_Action__c" />
@@ -3217,10 +3315,10 @@
                             <option name="name" value="sortablegrid__SDG_Field__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="sortablegrid__SDG__c" />
+                            <option name="name" value="sortablegrid__sdg_Preferences__c" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="sortablegrid__sdg_Preferences__c" />
+                            <option name="name" value="Task" />
                           </MetadataEntry>
                         </list>
                       </option>
