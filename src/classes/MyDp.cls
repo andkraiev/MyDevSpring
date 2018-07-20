@@ -54,6 +54,10 @@ global with sharing class mydp implements sortablegrid.sdgIDataProvider {
                             {
                                 filters.add('name like \'' + fv + '%\'');
                             }
+//                            if (fo=='STARTS')
+//                            {
+//                                filters.add('name like \'' + fv + '%\'');
+//                            }
                             //ETC ETC
                         }
                     }
