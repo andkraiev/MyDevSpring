@@ -1,0 +1,11 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <aura:attribute name="isCreated" access="public" type="Boolean" default="false"/>
+
+    <lightning:recordEditForm aura:id="recordEditForm" onsuccess="{!c.onsuccess}" onsubmit="{!c.onsubmit}" onerror="{!c.onerror}"
+                           objectApiName="Account">
+        <lightning:messages />
+        <lightning:inputField aura:id="recordName" fieldName="Name"/>
+        <lightning:inputField fieldName="Phone"/>
+        <lightning:button aura:id="recordSubmitBtn" class="slds-m-top_small" type="submit" label="Create new" disabled="{!v.isCreated}"/>
+    </lightning:recordEditForm>
+</aura:component>

@@ -1,0 +1,8 @@
+<!--
+ - Created by Andrii on 2/14/2018.
+ -->
+
+<aura:component controller="OpportunityCloneController" description="OpportunityClone" access="public" implements="force:hasRecordId,force:lightningQuickAction" >
+    <aura:attribute name="mydata" type="Object"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+</aura:component>
